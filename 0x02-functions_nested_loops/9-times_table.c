@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * time_table - function
+ * times_table - function
  * @void: no argument
  */
-void time_table(void)
+void times_table(void)
 {
 	int i, j, k;
 
