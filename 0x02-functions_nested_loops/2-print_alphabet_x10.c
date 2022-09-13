@@ -3,7 +3,7 @@
  * print_alphabet_x10 - print the alphabets
  * Return: 0 always
  */
-void print_alphabe_x10(void)
+void print_alphabet_x10(void)
 {
 	int alphabet;
 	int count;
