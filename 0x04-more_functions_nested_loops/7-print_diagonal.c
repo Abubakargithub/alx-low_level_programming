@@ -2,25 +2,32 @@
 /**
  * print_diagonal - function
  * @n: parameter 
+ * Return: 0
  */
 void print_diagonal(int n)
 {
-	if (n <= 0)
-	{
-		_putchar('\n');
-	} else
-	{
-		int i, j;
+	int i;
+	int k;
+	int s;
+	int j;
 
-		for (i = 0; i < n; i++)
+	k = '\\';
+	s = ' ';
+	for (i = 0; i < n; i++)
+	{
+		if (n > 1)
 		{
-			for (j = 0; j < n; j++)
+			for (j = 0; j < i; j++)
 			{
-				if (j == i)
-					_putchar('\\');
-				 else if (j < i)
-					_putchar(' ');
+
+				_putchar(s);
 			}
+			_puchar(k);
 			_putchar('\n');
 		}
 	}
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+}
