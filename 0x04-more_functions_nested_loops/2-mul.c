@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * mul- function
- * @: parameter
+ * @a: parameter
  * @b: parameter
  * Return: result
  */
