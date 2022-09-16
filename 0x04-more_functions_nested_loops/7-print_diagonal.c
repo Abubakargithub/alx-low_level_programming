@@ -2,8 +2,8 @@
 /**
  * print_diagonal - function
  * @n: parameter 
- * Return: 0
  */
+
 void print_diagonal(int n)
 {
 	int i;
