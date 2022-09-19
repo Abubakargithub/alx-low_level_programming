@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * _puts - prints string 
- * @str: pointer to string
- *
- * Return: void 
+ * _puts - function
+ * @str: parameter
+ * Return: void
  */
 void _puts(char *str)
 {
