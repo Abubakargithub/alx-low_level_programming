@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strcpy - copy stringat 
+ * _strcpy - copy
  * @desk: parameter
  * @src: parameter
- * Return: pointer
+ * Return: desk
  */
 char *_strcpy(char *desk, char *src)
 {
