@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_rev - prints strin
+ * print_rev - print values
  * @s: parameter
- * Return: void 
+ * Return: void
  */
 void print_rev(char *s)
 {
