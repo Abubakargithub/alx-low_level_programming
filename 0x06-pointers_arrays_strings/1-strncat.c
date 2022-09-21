@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strncat - pointer function
+ * _strncat - function
  * @dest: parameter
- * @src: parameter
- * @n: number
- * Return: void
+ * @src: source
+ * @n: parameter
+ * Return: value
  */
 char *_strncat(char *dest, char *src, int n)
 {
