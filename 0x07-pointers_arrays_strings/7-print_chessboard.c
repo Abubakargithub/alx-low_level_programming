@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_chessboard - prints 
- * @a: matrix
+ * print_chessboard- borad
+ * @a: parameter
+ * Return: 0;
  */
 void print_chessboard(char (*a)[8])
 {
