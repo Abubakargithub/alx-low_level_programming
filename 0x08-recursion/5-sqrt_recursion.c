@@ -1,26 +1,24 @@
 #include "main.h"
 /**
- * _sqrt_recursion - main
+ * sqrt2 - function
+ * @a: parameter
+ * @b: parameter
+ * Return: 1
+ */
+int sqrt2(int a, int b)
+{
+	if (b * b == a)
+		return (b);
+	else if (b* b > a)
+		return (-1);
+	return (sqrt2(a, b + 1));
+}
+/**
+ * _sqrt_recursion - function
  * @n: parameter
- * Return: 0
+ * Return: success
  */
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n, 1));
-}
-/**
- * _sqrt - function
- * @n: parameter
- * @i: parameter
- * Return: sqrt
- */
-int _sqrt(int n, int i)
-{
-	if (n < 0)
-		return (-1);
-	if ((i * i) > n)
-		return (-1);
-	if (i * i == n)
-		return (i);
-	return (_sqrt(n, i + 1));
+	return (sqrt2(n, 1));
 }
